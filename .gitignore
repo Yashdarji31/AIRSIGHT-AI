@@ -22,3 +22,5 @@ logs/
 
 # IDE
 .vscode/
+# Trained ML model artifacts
+models/
