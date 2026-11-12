@@ -12,9 +12,12 @@ __pycache__/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Data files
-data/raw/
-data/processed/
+# Ignore all datasets by default
+data/
+
+# Allow only the cleaned dataset required by the dashboard
+!data/processed/
+!data/processed/openaq_hourly_measurements_cleaned.csv
 
 # Logs
 logs/
