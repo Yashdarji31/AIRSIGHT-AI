@@ -1,0 +1,4 @@
+city,sensor_id,pollutant,unit,last_observation_utc,prediction_datetime_utc,latest_observed_value,predicted_value,selected_model,data_age_hours,latest_coverage_percent,latest_outlier_flag,prediction_warning,data_status
+Ahmedabad,13587481,pm25,µg/m³,2026-11-10T15:30:00+00:00,2026-11-10T16:30:00+00:00,23.8,44.535091936040914,hist_gradient_boosting,0.0,100.0,false,,historical_demo
+Bengaluru,15203555,pm25,µg/m³,2026-11-10T15:30:00+00:00,2026-11-10T16:30:00+00:00,103.0,173.4471850030351,hist_gradient_boosting,0.0,100.0,false,,historical_demo
+Delhi,23534,pm25,µg/m³,2026-11-10T15:30:00+00:00,2026-11-10T16:30:00+00:00,187.0,227.76799479313462,hist_gradient_boosting,0.0,100.0,false,,historical_demo

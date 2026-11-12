@@ -1,0 +1,7 @@
+pollutant,model,samples,mae,rmse,r2,baseline_mae,baseline_rmse,selection_reason
+pm25,hist_gradient_boosting,167,25.441771599283648,76.67041727613005,0.49865716013912675,29.19640718562874,99.03195697851281,ML selected: improved both MAE and RMSE against persistence
+pm10,persistence_baseline,162,32.928395061728395,79.98607903570579,0.70493717735358,32.928395061728395,79.98607903570579,Persistence selected: no ML model improved both MAE and RMSE
+no2,persistence_baseline,198,3.7750000000000004,7.556923877137343,0.8220500312199129,3.7750000000000004,7.556923877137343,Persistence selected: no ML model improved both MAE and RMSE
+so2,linear_regression,200,3.7603191519443646,9.635219339369382,0.6308307317244,3.8225250000000006,9.915643593584836,ML selected: improved both MAE and RMSE against persistence
+co,persistence_baseline,200,0.18619750000000004,0.37133138670195925,0.8482570744320309,0.18619750000000004,0.37133138670195925,Persistence selected: no ML model improved both MAE and RMSE
+o3,random_forest,200,3.4497255881654225,5.1341975165343126,0.896947803257752,3.6260999999999997,6.47415170118835,ML selected: improved both MAE and RMSE against persistence

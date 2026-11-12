@@ -1,0 +1,46 @@
+city,sensor_id,pollutant,reason
+Ahmedabad,12235726,co,Low-coverage observation in 24-hour history.
+Ahmedabad,12235728,no2,Low-coverage observation in 24-hour history.
+Ahmedabad,12235729,o3,Low-coverage observation in 24-hour history.
+Ahmedabad,12235730,pm10,Low-coverage observation in 24-hour history.
+Ahmedabad,12235733,so2,Low-coverage observation in 24-hour history.
+Bengaluru,12235280,co,Low-coverage observation in 24-hour history.
+Bengaluru,12235282,no2,Low-coverage observation in 24-hour history.
+Bengaluru,12235283,o3,Low-coverage observation in 24-hour history.
+Bengaluru,12235284,pm10,Low-coverage observation in 24-hour history.
+Bengaluru,12235287,so2,Low-coverage observation in 24-hour history.
+Chennai,12235526,co,Low-coverage observation in 24-hour history.
+Chennai,12235528,no2,Low-coverage observation in 24-hour history.
+Chennai,12235529,o3,Low-coverage observation in 24-hour history.
+Chennai,12235530,pm10,Low-coverage observation in 24-hour history.
+Chennai,12235531,pm25,Low-coverage observation in 24-hour history.
+Chennai,12235533,so2,Low-coverage observation in 24-hour history.
+Delhi,12234782,co,Low-coverage observation in 24-hour history.
+Delhi,12234784,no2,Low-coverage observation in 24-hour history.
+Delhi,12234785,o3,Low-coverage observation in 24-hour history.
+Delhi,12234786,pm10,Missing hourly observations: 4.
+Delhi,12234789,so2,Missing hourly observations: 6.
+Hyderabad,12235578,co,Low-coverage observation in 24-hour history.
+Hyderabad,12235580,no2,Low-coverage observation in 24-hour history.
+Hyderabad,12235581,o3,Low-coverage observation in 24-hour history.
+Hyderabad,12235582,pm10,Low-coverage observation in 24-hour history.
+Hyderabad,12235583,pm25,Missing hourly observations: 1.
+Hyderabad,12235585,so2,Low-coverage observation in 24-hour history.
+Kolkata,12238553,co,Low-coverage observation in 24-hour history.
+Kolkata,12238555,no2,Low-coverage observation in 24-hour history.
+Kolkata,12238556,o3,Low-coverage observation in 24-hour history.
+Kolkata,12238557,pm10,Low-coverage observation in 24-hour history.
+Kolkata,12238558,pm25,Low-coverage observation in 24-hour history.
+Kolkata,12238560,so2,Low-coverage observation in 24-hour history.
+Mumbai,23320,pm25,Missing hourly observations: 3.
+Mumbai,12235909,co,Low-coverage observation in 24-hour history.
+Mumbai,12235911,no2,Low-coverage observation in 24-hour history.
+Mumbai,12235912,o3,Low-coverage observation in 24-hour history.
+Mumbai,12235913,pm10,Low-coverage observation in 24-hour history.
+Mumbai,12235916,so2,Low-coverage observation in 24-hour history.
+Pune,12236458,co,Low-coverage observation in 24-hour history.
+Pune,12236460,no2,Low-coverage observation in 24-hour history.
+Pune,12236461,o3,Low-coverage observation in 24-hour history.
+Pune,12236462,pm10,Low-coverage observation in 24-hour history.
+Pune,12236463,pm25,Low-coverage observation in 24-hour history.
+Pune,12236465,so2,Low-coverage observation in 24-hour history.

@@ -1,0 +1,7 @@
+pollutant,selected_model,training_rows,status,model_path
+pm25,hist_gradient_boosting,920,trained_successfully,C:\Users\Yash Darji\AIRSIGHT-AI\models\hybrid\pm25_hist_gradient_boosting.joblib
+pm10,persistence_baseline,859,persistence_no_training_required,
+no2,persistence_baseline,836,persistence_no_training_required,
+so2,linear_regression,912,trained_successfully,C:\Users\Yash Darji\AIRSIGHT-AI\models\hybrid\so2_linear_regression.joblib
+co,persistence_baseline,897,persistence_no_training_required,
+o3,random_forest,913,trained_successfully,C:\Users\Yash Darji\AIRSIGHT-AI\models\hybrid\o3_random_forest.joblib
