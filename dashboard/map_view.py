@@ -565,7 +565,7 @@ def render_sensor_map():
 
     st_folium(
         india_map,
-        use_container_width=True,
+        width="stretch",
         height=620,
         returned_objects=[],
         key="airsight_sensor_map",
@@ -631,7 +631,7 @@ def render_sensor_map():
         sensor_table.sort_values(
             ["City", "Pollutant"]
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -659,5 +659,5 @@ def render_sensor_map():
         data=csv_bytes,
         file_name="airsight_sensor_measurements.csv",
         mime="text/csv",
-        use_container_width=True,
+        width="stretch",
     )

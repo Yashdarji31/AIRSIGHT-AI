@@ -56,6 +56,14 @@ METRICS_PATH = (
 )
 
 
+CITY_METRICS_PATH = (
+    PROJECT_ROOT
+    / "reports"
+    / "model_evaluation"
+    / "hybrid_backtest"
+    / "hybrid_backtest_city_metrics.csv"
+)
+
 # ============================================================
 # 3. DARK INTELLIGENCE THEME
 # ============================================================
@@ -218,6 +226,7 @@ try:
     predictions = load_csv(str(PREDICTIONS_PATH))
     rejected = load_csv(str(REJECTED_PATH))
     metrics = load_csv(str(METRICS_PATH))
+    city_metrics = load_csv(str(CITY_METRICS_PATH))
 
 except Exception as error:
     st.error(f"Data loading failed: {error}")
@@ -408,7 +417,7 @@ with overview_tab:
 
             st.plotly_chart(
                 fig,
-                use_container_width=True,
+                width="stretch",
             )
 
         else:
@@ -454,7 +463,7 @@ with overview_tab:
 
             st.plotly_chart(
                 fig,
-                use_container_width=True,
+                width="stretch",
             )
 
         else:
@@ -497,7 +506,7 @@ with overview_tab:
 
     st.plotly_chart(
         fig,
-        use_container_width=True,
+        width="stretch",
     )
 
 
@@ -571,7 +580,7 @@ with city_tab:
 
             st.plotly_chart(
                 fig,
-                use_container_width=True,
+                width="stretch",
             )
 
         else:
@@ -610,7 +619,7 @@ with city_tab:
 
             st.plotly_chart(
                 fig,
-                use_container_width=True,
+                width="stretch",
             )
 
         else:
@@ -646,7 +655,7 @@ with city_tab:
             "datetime_from_utc",
             ascending=False,
         ),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -672,6 +681,104 @@ with prediction_tab:
         )
 
         predictions_display = predictions.copy()
+
+
+
+        # ------------------------------------------------------------
+        # PREDICTION AVAILABILITY AND DATA QUALITY SUMMARY
+        # ------------------------------------------------------------
+
+        rejected_display = rejected.copy()
+
+        # Apply the same city and pollutant filters
+        if not rejected_display.empty:
+
+            if selected_city != "All Cities":
+                rejected_display = rejected_display[
+                    rejected_display["city"] == selected_city
+                ]
+
+            if selected_pollutant != "All Pollutants":
+                rejected_display = rejected_display[
+                    rejected_display["pollutant"] == selected_pollutant
+                ]
+
+        available_count = len(predictions_display)
+        rejected_count = len(rejected_display)
+        assessed_count = available_count + rejected_count
+
+        availability_rate = (
+            (available_count / assessed_count) * 100
+            if assessed_count > 0 else 0
+        )
+
+        st.markdown("### Prediction Availability")
+
+        availability_col1, availability_col2, availability_col3 = (
+            st.columns(3)
+        )
+
+        availability_col1.metric(
+            "Available Predictions",
+            available_count,
+        )
+
+        availability_col2.metric(
+            "Rejected Records",
+            rejected_count,
+        )
+
+        availability_col3.metric(
+            "Availability Rate",
+            f"{availability_rate:.1f}%",
+        )
+
+        st.caption(
+            "Availability rate = available prediction records / "
+            "all assessed records. Counts are based on the selected filters."
+        )
+
+        # Rejection reasons
+        if not rejected_display.empty:
+
+            st.markdown("#### Why were sensors rejected?")
+
+            rejection_summary = (
+                rejected_display["reason"]
+                .value_counts()
+                .rename_axis("reason")
+                .reset_index(name="count")
+            )
+
+            rejection_fig = px.bar(
+                rejection_summary,
+                x="count",
+                y="reason",
+                orientation="h",
+                text="count",
+                color_discrete_sequence=["#22D3EE"],
+            )
+
+            rejection_fig.update_traces(
+                textposition="outside",
+            )
+
+            rejection_fig.update_layout(
+                height=350,
+                showlegend=False,
+                yaxis_title="",
+            )
+
+            st.plotly_chart(
+                rejection_fig,
+                width="stretch",
+            )
+        else:
+            st.info(
+                "No rejected sensor records for the selected filters."
+            )
+
+
 
         numeric_columns = [
             "latest_observed_value",
@@ -718,7 +825,7 @@ with prediction_tab:
 
             st.dataframe(
                 predictions_display,
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -753,7 +860,7 @@ with prediction_tab:
 
                 st.plotly_chart(
                     fig,
-                    use_container_width=True,
+                    width="stretch",
                 )
 
             with prediction_col2:
@@ -834,7 +941,7 @@ with model_tab:
 
         st.dataframe(
             metrics,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -866,7 +973,7 @@ with model_tab:
 
         st.plotly_chart(
             fig,
-            use_container_width=True,
+            width="stretch",
         )
 
         # RMSE comparison
@@ -897,7 +1004,7 @@ with model_tab:
 
         st.plotly_chart(
             fig,
-            use_container_width=True,
+            width="stretch",
         )
 
         st.caption(
@@ -1000,7 +1107,7 @@ with quality_tab:
 
         st.plotly_chart(
             fig,
-            use_container_width=True,
+            width="stretch",
         )
 
     else:
@@ -1043,7 +1150,7 @@ with quality_tab:
 
         st.dataframe(
             rejected_display,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
