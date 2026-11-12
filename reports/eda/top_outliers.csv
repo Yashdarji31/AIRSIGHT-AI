@@ -1,0 +1,61 @@
+city,location_name,sensor_id,parameter,value,unit,datetime_ist
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,904.0,µg/m³,2026-11-09 04:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,903.0,µg/m³,2026-11-09 05:00:00+05:30
+Mumbai,Mumbai,23320,pm25,870.0,µg/m³,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,781.0,µg/m³,2026-11-08 22:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234786,pm10,769.0,µg/m³,2026-11-07 21:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,734.0,µg/m³,2026-11-08 21:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,730.0,µg/m³,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,728.0,µg/m³,2026-11-09 10:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,725.0,µg/m³,2026-11-08 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,702.0,µg/m³,2026-11-09 09:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,677.0,µg/m³,2026-11-09 05:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,633.0,µg/m³,2026-11-09 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,630.0,µg/m³,2026-11-08 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,485.0,µg/m³,2026-11-08 21:00:00+05:30
+Mumbai,Mumbai,23320,pm25,423.0,µg/m³,2026-11-09 01:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,378.0,µg/m³,2026-11-09 07:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,368.0,µg/m³,2026-11-09 08:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,337.0,µg/m³,2026-11-09 09:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,316.0,µg/m³,2026-11-09 10:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,284.0,µg/m³,2026-11-08 21:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,148.0,µg/m³,2026-11-07 11:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234784,no2,147.0,ppb,2026-11-06 20:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,140.0,µg/m³,2026-11-06 14:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,135.0,µg/m³,2026-11-06 13:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,134.0,µg/m³,2026-11-06 12:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,134.0,µg/m³,2026-11-05 14:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,132.0,µg/m³,2026-11-06 15:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,126.0,µg/m³,2026-11-07 11:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,126.0,µg/m³,2026-11-07 12:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,123.0,µg/m³,2026-11-06 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,119.0,µg/m³,2026-11-07 14:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,118.0,ppb,2026-11-09 00:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,94.4,ppb,2026-11-08 23:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235911,no2,85.4,ppb,2026-11-08 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,84.8,ppb,2026-11-08 22:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,63.5,ppb,2026-11-09 01:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,59.1,ppb,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,57.7,ppb,2026-11-09 00:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,55.9,ppb,2026-11-08 23:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,55.5,ppb,2026-11-08 11:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,52.3,ppb,2026-11-10 18:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,51.6,ppb,2026-11-09 03:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,50.0,ppb,2026-11-07 09:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,48.8,ppb,2026-11-04 17:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,46.0,ppb,2026-11-10 17:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,45.5,ppb,2026-11-04 16:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,44.8,ppb,2026-11-04 19:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,40.0,ppb,2026-11-04 18:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,39.9,ppb,2026-11-07 18:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238555,no2,28.8,ppb,2026-11-07 16:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.81,ppb,2026-11-04 20:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.62,ppb,2026-11-04 21:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.49,ppb,2026-11-04 22:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,6.59,ppb,2026-11-04 19:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,5.21,ppb,2026-11-04 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.6,ppb,2026-11-09 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.55,ppb,2026-11-10 19:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.36,ppb,2026-11-10 18:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.31,ppb,2026-11-09 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.13,ppb,2026-11-04 21:00:00+05:30

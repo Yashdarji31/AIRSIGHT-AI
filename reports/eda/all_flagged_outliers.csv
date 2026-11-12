@@ -1,0 +1,228 @@
+city,location_name,sensor_id,parameter,value,unit,datetime_ist
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235726,co,0.375,ppb,2026-11-04 08:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235726,co,3.58,ppb,2026-11-07 14:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.5,ppb,2026-11-09 05:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.7,ppb,2026-11-10 00:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.6,ppb,2026-11-10 01:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.7,ppb,2026-11-10 02:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.6,ppb,2026-11-10 03:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.5,ppb,2026-11-10 04:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235728,no2,17.0,ppb,2026-11-10 05:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,428.0,µg/m³,2026-11-08 00:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,346.0,µg/m³,2026-11-08 01:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,342.0,µg/m³,2026-11-08 21:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,543.0,µg/m³,2026-11-08 22:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,590.0,µg/m³,2026-11-08 23:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,315.0,µg/m³,2026-11-09 04:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235730,pm10,276.0,µg/m³,2026-11-10 01:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,17.0,ppb,2026-11-08 22:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,35.0,ppb,2026-11-08 23:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,118.0,ppb,2026-11-09 00:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,63.5,ppb,2026-11-09 01:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,35.8,ppb,2026-11-09 02:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,26.0,ppb,2026-11-09 03:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,22.1,ppb,2026-11-09 04:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,16.0,ppb,2026-11-09 05:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,17.0,ppb,2026-11-10 00:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,17.3,ppb,2026-11-10 01:00:00+05:30
+Ahmedabad,"Sector-10, Gandhinagar - GPCB",12235733,so2,14.1,ppb,2026-11-10 02:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,159.0,µg/m³,2026-11-07 04:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,164.0,µg/m³,2026-11-07 05:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,155.0,µg/m³,2026-11-07 06:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,180.0,µg/m³,2026-11-09 01:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,233.0,µg/m³,2026-11-09 02:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,248.0,µg/m³,2026-11-09 03:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,229.0,µg/m³,2026-11-09 04:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,211.0,µg/m³,2026-11-09 05:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,202.0,µg/m³,2026-11-09 06:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,189.0,µg/m³,2026-11-09 07:00:00+05:30
+Ahmedabad,IIMA Ventures,13587481,pm25,171.0,µg/m³,2026-11-09 08:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235280,co,2.68,ppb,2026-11-04 19:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,45.5,ppb,2026-11-04 16:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,48.8,ppb,2026-11-04 17:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,40.0,ppb,2026-11-04 18:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,44.8,ppb,2026-11-04 19:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,39.9,ppb,2026-11-07 18:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,46.0,ppb,2026-11-10 17:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235282,no2,52.3,ppb,2026-11-10 18:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235283,o3,58.3,µg/m³,2026-11-10 10:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235283,o3,56.7,µg/m³,2026-11-10 11:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235283,o3,59.0,µg/m³,2026-11-10 12:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235283,o3,64.0,µg/m³,2026-11-10 13:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235283,o3,70.2,µg/m³,2026-11-10 14:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,734.0,µg/m³,2026-11-08 21:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,730.0,µg/m³,2026-11-08 22:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,725.0,µg/m³,2026-11-08 23:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,232.0,µg/m³,2026-11-09 20:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,230.0,µg/m³,2026-11-09 22:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,254.0,µg/m³,2026-11-10 18:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235284,pm10,268.0,µg/m³,2026-11-10 19:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235287,so2,20.9,ppb,2026-11-04 08:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235287,so2,19.8,ppb,2026-11-04 09:00:00+05:30
+Bengaluru,"Silk Board, Bengaluru - KSPCB",12235287,so2,19.8,ppb,2026-11-04 10:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,149.0,µg/m³,2026-11-08 19:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,201.0,µg/m³,2026-11-08 20:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,284.0,µg/m³,2026-11-08 21:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,233.0,µg/m³,2026-11-08 22:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,168.0,µg/m³,2026-11-08 23:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,150.0,µg/m³,2026-11-09 00:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,112.0,µg/m³,2026-11-09 01:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,147.0,µg/m³,2026-11-09 19:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,178.0,µg/m³,2026-11-09 20:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,217.0,µg/m³,2026-11-09 21:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,193.0,µg/m³,2026-11-09 22:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,171.0,µg/m³,2026-11-09 23:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,142.0,µg/m³,2026-11-10 00:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,133.0,µg/m³,2026-11-10 01:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,117.0,µg/m³,2026-11-10 02:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,117.0,µg/m³,2026-11-10 03:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,118.0,µg/m³,2026-11-10 04:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,116.0,µg/m³,2026-11-10 05:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,114.0,µg/m³,2026-11-10 06:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,114.0,µg/m³,2026-11-10 07:00:00+05:30
+Bengaluru,Koramangala,15203555,pm25,112.0,µg/m³,2026-11-10 08:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,255.0,µg/m³,2026-11-08 20:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,255.0,µg/m³,2026-11-08 21:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,275.0,µg/m³,2026-11-08 22:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,315.0,µg/m³,2026-11-08 23:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,210.0,µg/m³,2026-11-09 20:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,215.0,µg/m³,2026-11-09 21:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,238.0,µg/m³,2026-11-09 22:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,206.0,µg/m³,2026-11-09 23:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235530,pm10,170.0,µg/m³,2026-11-10 20:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235531,pm25,142.0,µg/m³,2026-11-08 20:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235531,pm25,142.0,µg/m³,2026-11-08 21:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235531,pm25,151.0,µg/m³,2026-11-08 22:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235531,pm25,172.0,µg/m³,2026-11-08 23:00:00+05:30
+Chennai,"Velachery Res. Area, Chennai - CPCB",12235533,so2,24.4,ppb,2026-11-07 09:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,6.59,ppb,2026-11-04 19:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.81,ppb,2026-11-04 20:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.62,ppb,2026-11-04 21:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234782,co,7.49,ppb,2026-11-04 22:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234784,no2,147.0,ppb,2026-11-06 20:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,102.0,µg/m³,2026-11-04 13:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,103.0,µg/m³,2026-11-04 14:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,134.0,µg/m³,2026-11-05 14:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,123.0,µg/m³,2026-11-06 11:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,134.0,µg/m³,2026-11-06 12:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,135.0,µg/m³,2026-11-06 13:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,140.0,µg/m³,2026-11-06 14:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,132.0,µg/m³,2026-11-06 15:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,114.0,µg/m³,2026-11-07 10:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,148.0,µg/m³,2026-11-07 11:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234785,o3,126.0,µg/m³,2026-11-07 12:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234786,pm10,769.0,µg/m³,2026-11-07 21:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,37.1,ppb,2026-11-08 21:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,59.1,ppb,2026-11-08 22:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,55.9,ppb,2026-11-08 23:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,31.1,ppb,2026-11-09 00:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,34.9,ppb,2026-11-09 01:00:00+05:30
+Delhi,"R K Puram, Delhi - DPCC",12234789,so2,27.8,ppb,2026-11-09 02:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235578,co,1.34,ppb,2026-11-04 22:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,1.13,ppb,2026-11-05 11:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,0.7,ppb,2026-11-07 16:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,1.15,ppb,2026-11-08 02:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,0.775,ppb,2026-11-09 02:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,1.15,ppb,2026-11-09 09:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,1.2,ppb,2026-11-09 10:00:00+05:30
+Hyderabad,"Zoo Park, Hyderabad - TSPCB",12235585,so2,1.13,ppb,2026-11-10 20:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.82,ppb,2026-11-05 21:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.81,ppb,2026-11-07 19:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.82,ppb,2026-11-07 21:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.82,ppb,2026-11-09 20:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.85,ppb,2026-11-09 21:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.81,ppb,2026-11-09 22:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.88,ppb,2026-11-10 00:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.94,ppb,2026-11-10 01:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238553,co,1.89,ppb,2026-11-10 02:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238555,no2,28.8,ppb,2026-11-07 16:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238560,so2,16.4,ppb,2026-11-05 08:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238560,so2,16.3,ppb,2026-11-05 13:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238560,so2,16.1,ppb,2026-11-05 15:00:00+05:30
+Kolkata,"SVSPA Campus, Barrackpore - WBPCB",12238560,so2,17.7,ppb,2026-11-07 13:00:00+05:30
+Mumbai,Mumbai,23320,pm25,211.0,µg/m³,2026-11-08 21:00:00+05:30
+Mumbai,Mumbai,23320,pm25,870.0,µg/m³,2026-11-08 22:00:00+05:30
+Mumbai,Mumbai,23320,pm25,423.0,µg/m³,2026-11-09 01:00:00+05:30
+Mumbai,Mumbai,23320,pm25,176.0,µg/m³,2026-11-09 22:00:00+05:30
+Mumbai,Mumbai,23320,pm25,227.0,µg/m³,2026-11-09 23:00:00+05:30
+Mumbai,Mumbai,23320,pm25,206.0,µg/m³,2026-11-10 00:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,1.77,ppb,2026-11-04 08:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,1.76,ppb,2026-11-05 01:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,1.78,ppb,2026-11-08 00:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,1.92,ppb,2026-11-08 01:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,2.25,ppb,2026-11-08 22:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,2.14,ppb,2026-11-08 23:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235909,co,1.72,ppb,2026-11-10 01:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235911,no2,85.4,ppb,2026-11-08 23:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235912,o3,70.6,µg/m³,2026-11-04 14:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,261.0,µg/m³,2026-11-08 22:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,391.0,µg/m³,2026-11-08 23:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,329.0,µg/m³,2026-11-09 00:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,263.0,µg/m³,2026-11-09 01:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,157.0,µg/m³,2026-11-09 02:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235913,pm10,155.0,µg/m³,2026-11-10 02:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,49.1,ppb,2026-11-07 08:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,50.0,ppb,2026-11-07 09:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,55.5,ppb,2026-11-08 11:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,44.2,ppb,2026-11-09 01:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,43.0,ppb,2026-11-09 02:00:00+05:30
+Mumbai,"Worli, Mumbai - MPCB",12235916,so2,51.6,ppb,2026-11-09 03:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,5.21,ppb,2026-11-04 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.13,ppb,2026-11-04 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.04,ppb,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.6,ppb,2026-11-09 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.31,ppb,2026-11-09 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.36,ppb,2026-11-10 18:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236458,co,4.55,ppb,2026-11-10 19:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,102.0,µg/m³,2026-11-07 10:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,126.0,µg/m³,2026-11-07 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,112.0,µg/m³,2026-11-07 12:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,110.0,µg/m³,2026-11-07 13:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,119.0,µg/m³,2026-11-07 14:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,70.3,µg/m³,2026-11-07 15:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,81.7,µg/m³,2026-11-07 17:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,76.4,µg/m³,2026-11-08 09:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,72.9,µg/m³,2026-11-10 10:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236461,o3,79.8,µg/m³,2026-11-10 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,481.0,µg/m³,2026-11-07 00:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,486.0,µg/m³,2026-11-07 01:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,471.0,µg/m³,2026-11-07 02:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,630.0,µg/m³,2026-11-08 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,904.0,µg/m³,2026-11-09 04:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,903.0,µg/m³,2026-11-09 05:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,476.0,µg/m³,2026-11-09 08:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,702.0,µg/m³,2026-11-09 09:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,728.0,µg/m³,2026-11-09 10:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,633.0,µg/m³,2026-11-09 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,487.0,µg/m³,2026-11-09 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,547.0,µg/m³,2026-11-09 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236462,pm10,524.0,µg/m³,2026-11-09 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,173.0,µg/m³,2026-11-07 00:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,165.0,µg/m³,2026-11-07 01:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,169.0,µg/m³,2026-11-07 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,216.0,µg/m³,2026-11-08 20:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,485.0,µg/m³,2026-11-08 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,781.0,µg/m³,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,677.0,µg/m³,2026-11-09 05:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,378.0,µg/m³,2026-11-09 07:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,368.0,µg/m³,2026-11-09 08:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,337.0,µg/m³,2026-11-09 09:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,316.0,µg/m³,2026-11-09 10:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,273.0,µg/m³,2026-11-09 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,190.0,µg/m³,2026-11-09 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236463,pm25,196.0,µg/m³,2026-11-09 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,46.9,ppb,2026-11-08 21:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,84.8,ppb,2026-11-08 22:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,94.4,ppb,2026-11-08 23:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,57.7,ppb,2026-11-09 00:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,44.4,ppb,2026-11-09 01:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,32.9,ppb,2026-11-09 02:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,24.5,ppb,2026-11-09 03:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,21.5,ppb,2026-11-09 10:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,21.6,ppb,2026-11-09 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,28.1,ppb,2026-11-10 11:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,30.0,ppb,2026-11-10 12:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,27.3,ppb,2026-11-10 13:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,25.3,ppb,2026-11-10 14:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,24.7,ppb,2026-11-10 15:00:00+05:30
+Pune,"Revenue Colony-Shivajinagar, Pune - IITM",12236465,so2,23.0,ppb,2026-11-10 16:00:00+05:30

@@ -1,0 +1,7 @@
+pollutant,total_rows,train_rows,test_rows,unique_sensors,unique_cities,cutoff_time,train_end,test_start,train_file,test_file
+pm25,1181,920,261,8,8,2026-11-09 06:30:00+00:00,2026-11-09 05:30:00+00:00,2026-11-09 06:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\pm25\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\pm25\test.csv
+pm10,1110,859,251,8,8,2026-11-09 07:30:00+00:00,2026-11-09 06:30:00+00:00,2026-11-09 07:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\pm10\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\pm10\test.csv
+no2,1092,836,256,8,8,2026-11-09 07:30:00+00:00,2026-11-09 06:30:00+00:00,2026-11-09 07:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\no2\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\no2\test.csv
+so2,1158,912,246,8,8,2026-11-09 07:30:00+00:00,2026-11-09 06:30:00+00:00,2026-11-09 07:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\so2\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\so2\test.csv
+co,1153,897,256,8,8,2026-11-09 07:30:00+00:00,2026-11-09 06:30:00+00:00,2026-11-09 07:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\co\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\co\test.csv
+o3,1169,913,256,8,8,2026-11-09 07:30:00+00:00,2026-11-09 06:30:00+00:00,2026-11-09 07:30:00+00:00,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\o3\train.csv,C:\Users\Yash Darji\AIRSIGHT-AI\data\processed\modeling\o3\test.csv
