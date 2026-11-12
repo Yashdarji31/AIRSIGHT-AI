@@ -1,0 +1,152 @@
+
+/* =========================================
+   AIRSIGHT AI — DARK INTELLIGENCE THEME
+   ========================================= */
+
+:root {
+    --background: #0B1120;
+    --sidebar: #111827;
+    --card: #172235;
+    --border: #263449;
+    --cyan: #22D3EE;
+    --green: #10B981;
+    --text: #F1F5F9;
+    --muted: #94A3B8;
+}
+
+/* Main application */
+
+.stApp {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+/* Main content area */
+
+[data-testid="stMain"] {
+    background-color: var(--background);
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1500px;
+}
+
+/* Sidebar */
+
+[data-testid="stSidebar"] {
+    background-color: var(--sidebar);
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] * {
+    color: var(--text);
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    color: var(--text) !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+}
+
+/* Paragraphs */
+
+p, label, .stCaption {
+    color: var(--muted);
+}
+
+/* Metric cards */
+
+[data-testid="stMetric"] {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    transition: border-color 0.2s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: var(--cyan);
+}
+
+[data-testid="stMetricLabel"] {
+    color: var(--muted) !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--cyan) !important;
+    font-weight: 700;
+}
+
+/* Tabs */
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: transparent;
+    color: var(--muted);
+    border-radius: 8px 8px 0 0;
+    padding: 12px 18px;
+}
+
+.stTabs [aria-selected="true"] {
+    color: var(--cyan) !important;
+    border-bottom: 3px solid var(--cyan);
+}
+
+/* Select boxes */
+
+[data-baseweb="select"] > div {
+    background-color: var(--card);
+    border-color: var(--border);
+}
+
+/* Dataframes */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Buttons */
+
+.stButton > button {
+    background: linear-gradient(90deg, #0891B2, #0D9488);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+}
+
+/* Alerts */
+
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Dividers */
+
+hr {
+    border-color: var(--border);
+}
+
+/* Footer */
+
+footer {
+    visibility: hidden;
+}
+
+/* Responsive spacing */
+
+@media (max-width: 768px) {
+    .block-container {
+        padding: 1rem;
+    }
+}
