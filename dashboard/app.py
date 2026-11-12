@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.io as pio
 import streamlit as st
 
+from map_view import render_sensor_map
 
 # ============================================================
 # 1. PAGE CONFIGURATION
@@ -329,7 +330,7 @@ st.divider()
 # 10. DASHBOARD TABS
 # ============================================================
 
-overview_tab, city_tab, prediction_tab, model_tab, quality_tab = (
+overview_tab, city_tab, prediction_tab, model_tab, quality_tab, sensor_map_tab = (
     st.tabs(
         [
             "Overview",
@@ -337,6 +338,7 @@ overview_tab, city_tab, prediction_tab, model_tab, quality_tab = (
             "AI Predictions",
             "Model Performance",
             "Data Quality",
+            "Sensor Map",
         ]
     )
 )
@@ -1046,8 +1048,18 @@ with quality_tab:
         )
 
 
+
 # ============================================================
-# 16. FOOTER
+# 16. SENSOR MAP TAB
+# ============================================================
+
+with sensor_map_tab:
+
+    render_sensor_map()
+
+
+# ============================================================
+# 17. FOOTER
 # ============================================================
 
 st.divider()
