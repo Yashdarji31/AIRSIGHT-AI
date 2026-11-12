@@ -1,0 +1,4 @@
+"Model","Better","Worse","Equal","Average_Improvement_Percent","Median_Improvement_Percent"
+"hist_gradient_boosting","20","28","0","-40.3","-5.41"
+"linear_regression","24","24","0","-87.34","-0.7"
+"random_forest","26","22","0","-24.17","1.47"
