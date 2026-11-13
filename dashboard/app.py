@@ -898,6 +898,7 @@ with prediction_tab:
                         )
 
 
+
 # ============================================================
 # 14. MODEL PERFORMANCE TAB
 # ============================================================
@@ -905,6 +906,10 @@ with prediction_tab:
 with model_tab:
 
     st.subheader("Hybrid Model Evaluation")
+
+    # --------------------------------------------------------
+    # OVERALL MODEL PERFORMANCE
+    # --------------------------------------------------------
 
     if metrics.empty:
 
@@ -945,7 +950,9 @@ with model_tab:
             hide_index=True,
         )
 
-        # MAE comparison
+        # ----------------------------------------------------
+        # MAE COMPARISON
+        # ----------------------------------------------------
 
         st.subheader("MAE Comparison")
 
@@ -976,7 +983,9 @@ with model_tab:
             width="stretch",
         )
 
-        # RMSE comparison
+        # ----------------------------------------------------
+        # RMSE COMPARISON
+        # ----------------------------------------------------
 
         st.subheader("RMSE Comparison")
 
@@ -1012,6 +1021,292 @@ with model_tab:
             "original unit. Compare hybrid and persistence "
             "within the same pollutant, not across pollutants."
         )
+
+    # ========================================================
+    # CITY-WISE HYBRID VS PERSISTENCE ANALYSIS
+    # ========================================================
+
+    st.divider()
+
+    st.subheader("City-wise Model Intelligence")
+
+    if city_metrics.empty:
+
+        st.info(
+            "City-wise evaluation data is unavailable."
+        )
+
+    else:
+
+        city_analysis = city_metrics.copy()
+
+        # ----------------------------------------------------
+        # VALIDATE REQUIRED COLUMNS
+        # ----------------------------------------------------
+
+        required_city_columns = [
+            "city",
+            "pollutant",
+            "hybrid_MAE",
+            "persistence_MAE",
+            "hybrid_RMSE",
+            "persistence_RMSE",
+            "evaluation_rows",
+        ]
+
+        missing_city_columns = [
+            column
+            for column in required_city_columns
+            if column not in city_analysis.columns
+        ]
+
+        if missing_city_columns:
+
+            st.error(
+                "City-wise metrics file is missing required "
+                f"columns: {missing_city_columns}"
+            )
+
+        else:
+
+            # ------------------------------------------------
+            # CONVERT NUMERIC COLUMNS
+            # ------------------------------------------------
+
+            numeric_city_columns = [
+                "hybrid_MAE",
+                "persistence_MAE",
+                "hybrid_RMSE",
+                "persistence_RMSE",
+                "evaluation_rows",
+            ]
+
+            for column in numeric_city_columns:
+
+                city_analysis[column] = pd.to_numeric(
+                    city_analysis[column],
+                    errors="coerce",
+                )
+
+            city_pollutants = sorted(
+                city_analysis["pollutant"]
+                .dropna()
+                .unique()
+            )
+
+            if not city_pollutants:
+
+                st.info(
+                    "No pollutant-level city metrics are available."
+                )
+
+            else:
+
+                # --------------------------------------------
+                # POLLUTANT SELECTOR
+                # --------------------------------------------
+
+                selected_model_pollutant = st.selectbox(
+                    "Select pollutant for city-wise comparison",
+                    city_pollutants,
+                    key="city_model_pollutant",
+                )
+
+                city_analysis = city_analysis[
+                    city_analysis["pollutant"]
+                    == selected_model_pollutant
+                ].copy()
+
+                # --------------------------------------------
+                # CALCULATE IMPROVEMENT PERCENTAGES
+                # --------------------------------------------
+
+                # Positive improvement means hybrid has lower error.
+
+                city_analysis["MAE_improvement_percent"] = (
+                    (
+                        city_analysis["persistence_MAE"]
+                        - city_analysis["hybrid_MAE"]
+                    )
+                    / city_analysis["persistence_MAE"].replace(
+                        0,
+                        float("nan"),
+                    )
+                ) * 100
+
+                city_analysis["RMSE_improvement_percent"] = (
+                    (
+                        city_analysis["persistence_RMSE"]
+                        - city_analysis["hybrid_RMSE"]
+                    )
+                    / city_analysis["persistence_RMSE"].replace(
+                        0,
+                        float("nan"),
+                    )
+                ) * 100
+
+                # --------------------------------------------
+                # MODEL WIN COUNTS
+                # --------------------------------------------
+
+                valid_rmse_improvements = city_analysis[
+                    "RMSE_improvement_percent"
+                ].dropna()
+
+                hybrid_wins = int(
+                    (
+                        valid_rmse_improvements > 0
+                    ).sum()
+                )
+
+                persistence_wins = int(
+                    (
+                        valid_rmse_improvements < 0
+                    ).sum()
+                )
+
+                tied = int(
+                    (
+                        valid_rmse_improvements == 0
+                    ).sum()
+                )
+
+                win_col1, win_col2, win_col3 = st.columns(3)
+
+                win_col1.metric(
+                    "Hybrid performs better",
+                    hybrid_wins,
+                )
+
+                win_col2.metric(
+                    "Persistence performs better",
+                    persistence_wins,
+                )
+
+                win_col3.metric(
+                    "Equal RMSE",
+                    tied,
+                )
+
+                st.caption(
+                    "Model winners are determined by RMSE within "
+                    "each city for the selected pollutant. Cities "
+                    "with missing metric values are excluded "
+                    "from the win counts."
+                )
+
+                # --------------------------------------------
+                # CITY-WISE RMSE IMPROVEMENT CHART
+                # --------------------------------------------
+
+                st.subheader(
+                    f"{selected_model_pollutant.upper()} — "
+                    "City-wise RMSE Improvement"
+                )
+
+                chart_data = (
+                    city_analysis
+                    .dropna(
+                        subset=["RMSE_improvement_percent"]
+                    )
+                    .sort_values(
+                        "RMSE_improvement_percent",
+                        ascending=True,
+                    )
+                )
+
+                if not chart_data.empty and (
+                    chart_data["RMSE_improvement_percent"].abs() < 1e-9
+                ).all():
+
+                    st.info(
+                        "Both models have identical RMSE across all "
+                        "eight cities for this pollutant."
+                    )
+
+                elif not chart_data.empty:
+
+                    fig = px.bar(
+                        chart_data,
+                        x="RMSE_improvement_percent",
+                        y="city",
+                        orientation="h",
+                        color="RMSE_improvement_percent",
+                        color_continuous_scale=[
+                            "#EF4444",
+                            "#F59E0B",
+                            "#10B981",
+                        ],
+                        labels={
+                            "RMSE_improvement_percent": (
+                                "RMSE improvement (%)"
+                            ),
+                            "city": "City",
+                        },
+                        hover_data={
+                            "hybrid_RMSE": ":.3f",
+                            "persistence_RMSE": ":.3f",
+                            "evaluation_rows": True,
+                        },
+                    )
+
+                    fig.add_vline(
+                        x=0,
+                        line_dash="dash",
+                        line_color="white",
+                    )
+
+                    fig.update_layout(
+                        height=430,
+                        coloraxis_colorbar_title="Improvement (%)",
+                        yaxis_title="",
+                    )
+
+                    st.plotly_chart(
+                        fig,
+                        width="stretch",
+                    )
+
+                else:
+
+                    st.info(
+                        "No valid RMSE comparison values are "
+                        "available for this pollutant."
+                    )
+
+                st.caption(
+                    "Positive values indicate lower hybrid RMSE. "
+                    "Negative values indicate lower persistence "
+                    "RMSE. The comparison is within the selected "
+                    "pollutant."
+                )
+
+                # --------------------------------------------
+                # DETAILED CITY-WISE METRICS TABLE
+                # --------------------------------------------
+
+                st.subheader(
+                    "Detailed City-wise Metrics"
+                )
+
+                display_columns = [
+                    "city",
+                    "pollutant",
+                    "hybrid_MAE",
+                    "persistence_MAE",
+                    "MAE_improvement_percent",
+                    "hybrid_RMSE",
+                    "persistence_RMSE",
+                    "RMSE_improvement_percent",
+                    "evaluation_rows",
+                ]
+
+                st.dataframe(
+                    city_analysis[display_columns].round(3),
+                    width="stretch",
+                    hide_index=True,
+                )
+
 
 
 # ============================================================
